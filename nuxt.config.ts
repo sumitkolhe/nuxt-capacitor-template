@@ -24,11 +24,7 @@ export const nuxtAppConfig: NuxtConfig = {
 
   components: true,
 
-  buildModules: [
-    '@nuxt/typescript-build',
-    '@nuxtjs/stylelint-module',
-    '@nuxtjs/vuetify',
-  ],
+  buildModules: ['@nuxt/typescript-build', '@nuxtjs/vuetify'],
 
   modules: ['@nuxtjs/axios'],
 
@@ -40,7 +36,6 @@ export const nuxtAppConfig: NuxtConfig = {
   srcDir: 'src/',
 
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
     theme: {
       dark: true,
       themes: {
