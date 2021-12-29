@@ -24,7 +24,12 @@ export const nuxtAppConfig: NuxtConfig = {
 
   components: true,
 
-  buildModules: ['@nuxt/typescript-build', '@nuxtjs/vuetify'],
+  buildModules: [
+    '@nuxt/typescript-build',
+    '@nuxtjs/vuetify',
+    '@nuxtjs/composition-api/module',
+    '@pinia/nuxt',
+  ],
 
   modules: ['@nuxtjs/axios'],
 
