@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --open",
     "start": "nuxt start",
     "build": "nuxt generate",
     "dev:android": "npx cap open android",
@@ -17,15 +17,18 @@
     "@capacitor/android": "^3.3.3",
     "@capacitor/core": "^3.3.3",
     "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/composition-api": "^0.31.0",
+    "@pinia/nuxt": "^0.1.8",
     "core-js": "^3.20.1",
     "nuxt": "^2.15.8",
-    "vuetify": "^2.6.1"
+    "pinia": "^2.0.9",
+    "vuetify": "^2.6.2"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.5",
     "@capacitor/cli": "^3.3.3",
-    "@commitlint/cli": "^15.0.0",
-    "@commitlint/config-conventional": "^15.0.0",
+    "@commitlint/cli": "^16.0.1",
+    "@commitlint/config-conventional": "^16.0.0",
     "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/eslint-config-typescript": "^8.0.0",
