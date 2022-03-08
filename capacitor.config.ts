@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli'
 
 const config: CapacitorConfig = {
-  appId: 'co.sumit.kept',
-  appName: 'kept',
+  appId: 'co.sumit.nuxt-capacitor',
+  appName: 'nuxt-capacitor',
   webDir: 'dist',
   bundledWebRuntime: false,
   server: {
